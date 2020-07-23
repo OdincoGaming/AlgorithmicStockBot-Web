@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+:root{
+  --main-bg-color: #36A2F1;
+  --light-bg-color: #36A2F1;
+  --component-bg-color: #0B4D81;
+  --main-text-color: #FFFFFf;
+  --btn-color: #822E65;
+  --bt-text-color: #822E65;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--main-text-color);
+}
+
+.btn {
+ background-color: var(--btn-color);
+}
+
+.container{
+  color: var(--main-text-color);
+  background-color: var(--component-bg-color);
+}
+#caption{
+  text-shadow:2px 2px black;
+}
+
+
+div .jumbotron{
+  margin: 20px auto;
+  width: 100%;
+  color: var(--main-text-color);
+  background-color: var(--component-bg-color);
+}
+
+.jumbotron{
+  background-image: url(https://specials-images.forbesimg.com/imageserve/1201457952/960x0.jpg?fit=scale);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+  background-color: var(--component-bg-color);
+  color: var(--main-text-color);
+  text-align: left;
+}
+
+#symbolButton{
+ margin-top: 1em;
+ margin-bottom: 1em;
+}
+
+#signUp{
+  border: 2px solid #605F5E;
+}
+
+.card{
+  margin: 20px auto;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 2px solid #605F5E;
+  color: var(--main-text-color);
+  background-color: var(--component-bg-color);
+}
+
+#main-menu {
+  background-color: var(--main-bg-color);
+}
+
+.chart {
+  border: 2px solid #605F5E;
+  background-color: white;
+  color: var(--component-bg-color);
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container.card{
+  background-color: var(--light-bg-color);
+  color: var(--component-bg-color);
+}
+
+footer{
+ background-color: var(--light-bg-color);
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ color: white;
+ margin-top: 20px;
+ position: fixed;
+ 
+}
+nav{
+  margin-top: 0;
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-bottom: 30px;
+  background-color: var(--light-bg-color);
+}
+
+#navbg {
+ background-color: var(--light-bg-color);
+ border: none;
+}
+
+.nav-link, .navbar-brand{
+  color: var(--main-text-color);
+}
+
+#symbolInput{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: var(--main-bg-color);
+  height: 150px;
+  padding: 20px;
+  color: var(--main-text-color);
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
