@@ -8,7 +8,6 @@ class Bot {
         this.id = APCA_API_KEY_ID;
         this.secret = APCA_API_SECRET_KEY;
         this.availableAssets = assetsTxt;
-
         this.alpaca = new Alpaca({
             keyId: this.id,
             secretKey: this.secret,
