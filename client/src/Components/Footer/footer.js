@@ -7,7 +7,7 @@ export default class Footer extends Component {
         return (
             <div>
                 <footer>
-                    <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+                    <div class="footer-copyright text-center py-3">© 2020 Copyright Odinco Gaming</div>
                 </footer>
             </div>
         )
