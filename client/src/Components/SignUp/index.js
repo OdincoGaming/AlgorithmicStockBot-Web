@@ -19,7 +19,6 @@ const Signup = () => {
                                 <p>Only 10% of trades are done manually, and those traders are losing out to Wall Street firms with computers that
                                     can make trades faster than you can click "buy"
                                 </p>
-
                             </div>
                         </div>
                         <div className="carousel-item">
