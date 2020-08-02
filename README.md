@@ -24,5 +24,5 @@ deployed with heroku
 
 ## Authors
 
-* **Frederick Lyle** - *Initial work* - [OdincoGaming](https://github.com/OdincoGaming)
-* **Dexter Sampson** - *Initial work* - [dsampson89](https://github.com/dsampson89)
+* **Frederick Lyle** - [OdincoGaming](https://github.com/OdincoGaming)
+* **Dexter Sampson** - [dsampson89](https://github.com/dsampson89)
