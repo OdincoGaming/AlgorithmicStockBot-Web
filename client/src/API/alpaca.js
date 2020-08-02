@@ -106,7 +106,6 @@ class Bot {
         }
         return Promise.all(promises).then(()=>{
             this.liquidatePositions()
-            //console.log(output)
             return(output)
         }).catch((e)=>{
             console.log(e)
