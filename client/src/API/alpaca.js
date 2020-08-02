@@ -3,7 +3,6 @@ const assetsTxt = require("./assets.json")
 const util = require('./utilities');
 
 class Bot {
-
     constructor(APCA_API_BASE_URL, APCA_API_KEY_ID, APCA_API_SECRET_KEY){
         this.url = APCA_API_BASE_URL;
         this.id = APCA_API_KEY_ID;
