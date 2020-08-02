@@ -14,7 +14,7 @@ visit the deployed app http://stockbot20.herokuapp.com/
 
 ## Deployment
 
-deployed with heroku
+deployed with heroku @ http://stockbot20.herokuapp.com/
 
 ## Built With
 
